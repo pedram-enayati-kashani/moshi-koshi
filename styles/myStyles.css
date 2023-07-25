@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+header{
+    background-color: #171010;
+    position: relative;
+}
+
+header nav{
+    width: 20%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    list-style: none;
+    font: 15px 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+header nav ul li{
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+header nav ul li:hover{
+    background-color: red;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: #2B2B2B;
+    height: 58vh;
+}
+
+main .mouse-killer-desk{
+    width: 60%;
+    height: 300px;
+    background-color: rgb(7, 241, 7);
+    margin:100px auto;
+    position: relative;
+    border: 5px solid green;
+    box-sizing: content-box
+}
+
+main .mouse-killer-desk .active-mouse{
+    background: url(../img/vector-simple-cartoon-mouse-svg-odg.jpg) no-repeat;
+    background-size: contain;
+}
+
+main .mouse-killer-desk .hole1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+main .mouse-killer-desk .hole2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+main .mouse-killer-desk .hole3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 134px;
+    left: 172px;
+}
+
+main .mouse-killer-desk .hole4{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 236px;
+    left: 360px;
+}
+
+main .mouse-killer-desk .hole5{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 220px;
+    left: 73px;
+}
+
+main .mouse-killer-desk .hole6{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 58px;
+    right: 259px;
+}
+
+main .mouse-killer-desk .hole7{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 44px;
+    right: 80px;
+}
+
+main .mouse-killer-desk .hole8{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 192px;
+    right: 144px;
+}
+
+main .mouse-killer-desk .hole9{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 133px;
+    right: 445px;
+}
+
+main .mouse-killer-desk .hole10{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 162px;
+    right: 281px;
+}
+
+/* main .mouse-killer-desk div img{
+    width: 100%;
+    border-radius: 50%;
+} */
