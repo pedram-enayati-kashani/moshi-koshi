@@ -47,16 +47,7 @@ main{
 }
 
 main .mouse-killer-desk{
-    width: 60%;
-    height: 300px;
-    background-color: rgb(7, 241, 7);
     margin:100px auto;
-    position: relative;
-    border: 5px solid green;
+    border: 5px solid #1C9005;
     box-sizing: content-box
-}
-
-main .mouse-killer-desk .active-mouse{
-    background: url(../img/vector-simple-cartoon-mouse-svg-odg.jpg) no-repeat;
-    background-size: contain;
 }
