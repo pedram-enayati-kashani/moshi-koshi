@@ -1,6 +1,8 @@
 let parents=document.querySelector(".mouse-killer-desk")
 let time=0;
 let outTime=0;
+let roundNumber=prompt('How many round do you want to play?\nEnter in number !')
+roundNumber=parseInt(roundNumber);
 let round=1;
 let firstRound=true;
 let point=0;
@@ -63,7 +65,7 @@ function call(){
         chosenHole.addEventListener('click',killMousefunc)
     }
     else if(time>outTime&&firstRound==false){
-        if(round<=10){
+        if(round<=roundNumber){
             round++;
             deleteTageHole=document.querySelectorAll('.hole');
             for(let i=0;i<deleteTageHole.length;i++){
@@ -113,5 +115,5 @@ function pointUser(a){
     h2UserPoint.style.fontWeight="600";
     h2MousePoint.style.fontWeight="600"
     h2UserPoint.innerText= "your point is : "+userPoint;
-    h2MousePoint.innerText= "mouse point is : "+(10 - userPoint);
+    h2MousePoint.innerText= "mouse point is : "+(roundNumber - userPoint);
 }
